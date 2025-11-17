@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Efficient Energy | Get in Touch</title>
+    <meta name="description" content="Contact Efficient Energy for reliable fuel solutions. Get in touch with our team for inquiries, emergency services, or partnership opportunities.">
+    <meta name="keywords" content="contact efficient energy, fuel delivery inquiry, emergency fuel service, partnership opportunities">
+    <meta name="author" content="Efficient Energy (Pty) Ltd">
+    
+    <meta property="og:title" content="Contact Efficient Energy - Fuel Solutions">
+    <meta property="og:description" content="Get in touch for reliable fuel delivery services and emergency support">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://efficientenergy.co.za/contact.html">
+    
+    <link rel="canonical" href="https://efficientenergy.co.za/contact.html">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container header-content">
+            <div class="logo" role="heading" aria-level="1">
+                Efficient <span>Energy</span>
+            </div>
+            <nav role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="section-title">
+                    <h2 id="contact-heading">Contact Us</h2>
+                    <p>Get in touch with our team for reliable fuel solutions</p>
+                </div>
+                
+                <div class="success-message" id="form-success" style="display: none;">
+                    Thank you for your message! We will get back to you soon.
+                </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <div class="error-message" id="phone-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company/Organization</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Interested In *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="hospitals">Hospitals & Healthcare</option>
+                                    <option value="malls">Malls & Shopping Centers</option>
+                                    <option value="education">Educational Institutions</option>
+                                    <option value="offices">Office Buildings</option>
+                                    <option value="individuals">Individuals & Residential</option>
+                                    <option value="bulk">Bulk Fuel Supply</option>
+                                    <option value="emergency">Emergency Services</option>
+                                    <option value="partnership">Partnership Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="error-message" id="service-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="urgency">Urgency Level</label>
+                                <select id="urgency" name="urgency">
+                                    <option value="standard">Standard Inquiry</option>
+                                    <option value="urgent">Urgent (Within 24 hours)</option>
+                                    <option value="emergency">Emergency (Immediate)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" placeholder="Please provide details about your fuel requirements, location, and any specific needs..." required></textarea>
+                                <div class="error-message" id="message-error"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="section-title" style="margin-top: 4rem;">
+                    <h2>Emergency Service</h2>
+                    <p>24/7 emergency fuel delivery when you need it most</p>
+                </div>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 300px; padding: 1.5rem; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">🆘 Emergency Hotline</h3>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--secondary);">+27 82 123 4567</p>
+                        <p>Available 24 hours, 7 days a week for emergency fuel delivery</p>
+                    </div>
+                    
+                    <div style="flex: 1; min-width: 300px; padding: 1.5rem; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">⏱️ Response Time</h3>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--secondary);">30 Minutes</p>
+                        <p>Average emergency response time in urban areas</p>
+                    </div>
+                    
+                    <div style="flex: 1; min-width: 300px; padding: 1.5rem; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">📞 Office Hours</h3>
+                        <p style="font-size: 1.5rem; font-weight: bold; color: var(--secondary);">+27 11 123 4567</p>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Efficient Energy</h3>
+                    <p>Your reliable partner in petroleum solutions across the SADC region.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📍 Johannesburg, South Africa</p>
+                    <p>📧 info@efficientenergy.co.za</p>
+                    <p>📞 +27 11 123 4567</p>
+                    <p>🆘 +27 82 123 4567 (Emergency)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Efficient Energy (Pty) Ltd. All rights reserved. | ST10454594</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
